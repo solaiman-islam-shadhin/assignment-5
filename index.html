@@ -35,7 +35,7 @@
                     <div class="flex justify-center items-center gap-5 ">
                         <div class="flex justify-center items-center gap-4 bg-[#F4F7FF] rounded-full py-2 px-4">
                             <img src="assets/checkbox.png" alt="">
-                            <p class="text-3xl font-bold">23</p>
+                            <p id="task-plus" class="text-3xl font-bold">23</p>
                         </div>
                         <div class="   ">
                             <img id="theme-btn" class="bg-[#F4F7FF] p-1 rounded-full  btn " src="assets/theme-btn.png"
@@ -57,16 +57,16 @@
                                 </div>
                                 <div class="w-[127px]">
                                     <p>Task Assigned </p>
-                                    <h3 class="text-3xl font-bold">05</h3>
+                                    <h3 id="task-remaining" class="text-3xl font-bold">6</h3>
                                 </div>
 
                             </div>
 
                             <div
-                                class="flex justify-center items-center gap-5 py-6 px-10 bg-linear-to-r from-[#3752FD] to-[#9BA8F8] rounded-md ">
+                                class="flex justify-center items-center gap-5 py-6 px-10 bg-linear-to-r from-[#3752FD] to-[#9BA8F8] rounded-md cursor-pointer ">
                                 <img class="border border-dashed border-gray-400" src="assets/board.png" alt="">
                                 <div class="w-[300px]">
-                                    <p class=" text-white text-[24px]">Discover Something <br> New Today!</p>
+                                    <p id="discover" class=" text-white text-[24px]">Discover Something <br> New Today!</p>
                                 </div>
 
                             </div>
@@ -75,9 +75,8 @@
                                 <div class="bg-white p-3 rounded-full">
                                     <img src="assets/calender.png" alt="">
                                 </div>
-                                <div class="w-[127px]">
-                                    <p class="text-xl">Wed,</p>
-                                    <h3 class="text-xl font-bold">Jul 28 2025 </h3>
+                                <div id="day-container" class="w-[127px]">
+                                   
                                 </div>
 
                             </div>
@@ -93,7 +92,7 @@
 
                             </div>
                             <div>
-                                <h3 class="text-xl font-semibold">Fix Mobile Button Issue </h3>
+                                <h3 id="head-1" class="text-xl font-semibold">Fix Mobile Button Issue </h3>
 
                             </div>
                             <div class="bg-white p-4 rounded-md">
@@ -109,7 +108,7 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button id="Completed-1st" class="btn bg-[#3752FD] text-white ">Completed</button>
 
                                 </div>
 
@@ -121,7 +120,7 @@
 
                             </div>
                             <div>
-                                <h3 class="text-xl font-semibold">Add Dark Mode </h3>
+                                <h3 id="head-2" class="text-xl font-semibold">Add Dark Mode </h3>
 
                             </div>
                             <div class="bg-white p-4 rounded-md">
@@ -137,7 +136,7 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button  id="Completed-2"  class="btn bg-[#3752FD] text-white ">Completed</button>
 
                                 </div>
 
@@ -149,7 +148,7 @@
 
                             </div>
                             <div>
-                                <h3 class="text-xl font-semibold">Optimize Home page  </h3>
+                                <h3 id="head-3" class="text-xl font-semibold">Optimize Home page  </h3>
 
                             </div>
                             <div class="bg-white p-4 rounded-md">
@@ -165,7 +164,7 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button id="Completed-3" class="btn bg-[#3752FD] text-white ">Completed</button>
 
                                 </div>
 
@@ -177,7 +176,7 @@
 
                             </div>
                             <div>
-                                <h3 class="text-xl font-semibold">Add new emoji 🤲 </h3>
+                                <h3 id="head-4" class="text-xl font-semibold">Add new emoji 🤲 </h3>
 
                             </div>
                             <div class="bg-white p-4 rounded-md">
@@ -193,7 +192,7 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button id="Completed-4" class="btn bg-[#3752FD] text-white ">Completed</button>
 
                                 </div>
 
@@ -205,7 +204,7 @@
 
                             </div>
                             <div>
-                                <h3 class="text-xl font-semibold">Integrate OpenAI API </h3>
+                                <h3 id="head-5" class="text-xl font-semibold">Integrate OpenAI API </h3>
 
                             </div>
                             <div class="bg-white p-4 rounded-md">
@@ -221,7 +220,7 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button id="Completed-5" class="btn bg-[#3752FD] text-white ">Completed</button>
 
                                 </div>
 
@@ -233,7 +232,7 @@
 
                             </div>
                             <div>
-                                <h3 class="text-xl font-semibold">Improve Job searching </h3>
+                                <h3 id="head-6" class="text-xl font-semibold">Improve Job searching </h3>
 
                             </div>
                             <div class="bg-white p-4 rounded-md">
@@ -249,7 +248,7 @@
                                 </div>
 
                                 <div>
-                                    <button class="btn bg-[#3752FD] text-white ">Completed</button>
+                                    <button  id="Completed-6"class="btn bg-[#3752FD] text-white ">Completed</button>
 
                                 </div>
 
@@ -265,14 +264,14 @@
 
 
 
-                <div class="bg-white rounded-xl">
+                <div id="history-container" class="bg-white rounded-xl ">
                     <div class="flex flex-col justify-center  items-center py-6 space-y-5">
                         <div class="flex gap-3 ">
                             <img src="assets/activity.png" alt="">
                             <p class="text-xl">Activity Log</p>
                         </div>
                         <div>
-                            <button class="btn bg-[#3752FD] text-white">Clear History</button>
+                            <button id="clear-history" class="btn bg-[#3752FD] text-white">Clear History</button>
                         </div>
                     </div>
                     <hr class="border border-dashed border-[#3752FD33] opacity-[50%] ">
@@ -284,6 +283,7 @@
         </section>
     </section>
     <script src="main.js"></script>
+    
 </body>
 
 </html>
